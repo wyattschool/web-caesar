@@ -27,7 +27,7 @@ form = """<!DOCTYPE html>
         <form action="/" method="POST">
             <label for="rot"><label>
 						Rotate by:
-						<input type="text" name="rot" value="0"></input>
+						<input type="text" name="rot" value="0" autofocus></input>
         <textarea name="text" placeholder="Enter some text to encrypt here.">{0}</textarea>
         <button type="submit">Submit Query</button>
         </form>
