@@ -29,7 +29,7 @@ form = """<!DOCTYPE html>
 						Rotate by:
 						<input type="text" name="rot" value="0"></input>
         <textarea name="text" placeholder="Enter some text to encrypt here.">{0}</textarea>
-        <button type="submit" accesskey="enter">Submit Query</button>
+        <button type="submit">Submit Query</button>
         </form>
     </body>
 </html>"""
